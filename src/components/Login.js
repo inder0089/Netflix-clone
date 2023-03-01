@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import Logo from "../assets/images/Logonetflix.png";
 import { Button, Container } from "react-bootstrap";
-import loginBackground from "../assets/images/background-netflix.jpg";
 import Signup from "./Signup";
 
 function Login() {
   const [signIn, setSignIn] = useState(false);
 
-  const showSignup = () => {};
+  const showSignup = () => {
+    setSignIn(true);
+  };
+
   return (
     <div>
       <div className="login-page">
