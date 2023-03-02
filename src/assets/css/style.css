@@ -123,6 +123,7 @@
 }
 .signupscreen h4 span{
     color: #fff;
+    cursor: pointer;
 }
 .signupscreen h4:hover span {
     text-decoration: underline;
